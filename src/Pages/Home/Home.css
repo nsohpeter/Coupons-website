@@ -1,0 +1,14 @@
+.main-home {
+    width: 100%;
+}
+
+.home-body {
+    /* margin: auto;
+    height: 100%; */
+}
+
+@media(max-width:768px) {
+    .main-home {
+        width: 100%;
+    }
+}

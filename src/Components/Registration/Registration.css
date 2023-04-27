@@ -1,0 +1,40 @@
+.main-regContainer {
+    margin: auto;
+    position: relative;
+}
+
+.main-regContainer h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.tabs-btn {
+    display: flex;
+    position: absolute;
+    left: 40%;
+    gap: 2.5rem;
+}
+
+.tabs-btn button {
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.tabs-btn button:hover {
+    color: var(--clr-primary-5);
+    box-shadow: 0 2px var(--clr-primary-5);
+}
+
+.active-btn {
+    color: var(--clr-primary-5);
+    box-shadow: 0 2px var(--clr-primary-5);
+}
+
+.form-display {
+    margin-top: 4rem;
+}

@@ -1,0 +1,9 @@
+.right-cate {
+    display: flex;
+    align-items: center;
+}
+
+.right-cate h3 {
+    font-size: 1.5rem;
+    color: crimson;
+}
